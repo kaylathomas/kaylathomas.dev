@@ -6,6 +6,18 @@ DATE: 31 Jan, 2010
 REVISION: 1.0
 DESCRIPTION: A premium business and portfolio theme.
 ************************************/
+/* Verticaly center items */
+.devicon-html5-plain-wordmark {
+	font-size: 300%;
+}
+/* Verticaly center items */
+.vertical-center {
+	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+	min-height: 100vh; /* These two lines are counted as one :-)       */
+
+	display: flex;
+	align-items: center;
+}
 
 /* Global Styles */
 
